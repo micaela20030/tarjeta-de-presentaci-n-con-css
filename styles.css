@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Playwrite IN Guides", cursive;
+  height: 100vh;
+  background-color: #c2ffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-contenedor {
+  position: relative;
+  width: 450px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.foto-usuario {
+  position: absolute;
+  top: 20px;
+  left: 125px;
+}
+
+.foto-usuario img {
+  border-radius: 50%;
+  width: 70px;
+  border: 6px solid #ffffff;
+}
+
+.tarjeta {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
+
+.tarjeta-contenido {
+  padding: 60px 40px 20px 40px;
+}
+
+.tarjeta-contenido .ocupacion {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1900ff;
+  text-align: right;
+}
+
+.tarjeta-contenido .nombre-completo {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.descripcion {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.redes-sociales nav {
+  width: 100%;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tarjeta-foto  {
+  background-image: url(assets/banner-h.jpg);
+  background-size: cover;
+  border-radius: 20px 0px 0px 20px;
+}
